@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
+    repoURL: https://github.com/oliwiak82/k8s-app-nginx.git
     targetRevision: HEAD
     path: dev
   destination: 
