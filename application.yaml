@@ -9,10 +9,10 @@ spec:
   source:
     repoURL: https://github.com/oliwiak82/k8s-app-nginx.git
     targetRevision: HEAD
-    path: dev
+    path: k8s-app-nginx
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: nginx
 
   syncPolicy:
     syncOptions:
